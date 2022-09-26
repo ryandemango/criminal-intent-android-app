@@ -4,7 +4,7 @@ import com.example.criminalintent.Crime
 
 import androidx.lifecycle.ViewModel
 
-class CrimeListviewModel : ViewModel() {
+class CrimeListViewModel : ViewModel() {
     val crimes = mutableListOf<Crime>()
 
     init {
